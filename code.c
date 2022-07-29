@@ -1,0 +1,14 @@
+#include<stdio.h>
+reverse(node**ptrhead)
+if(ptrhead==NULL)return;
+{
+    prev=NULL;
+    curr->*ptrhead;
+    while{
+        succ=curr->next;
+        curr->next=prev;
+        prev=curr;
+        curr=succ;
+    }
+    *ptrhead=prev;
+}
